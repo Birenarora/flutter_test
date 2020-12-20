@@ -6,7 +6,7 @@ workflows:
         name: iOS App
         environment:
             vars:
-                XCODE_WORKSPACE: "MyXcodeWorkspace.xcworkspace"
+                XCODE_WORKSPACE: "MyXcodeWorkspace"
                 XCODE_SCHEME: "MyScheme"
             xcode: latest
             cocoapods: default
