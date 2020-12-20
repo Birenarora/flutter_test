@@ -6,8 +6,8 @@ workflows:
         name: iOS App
         environment:
             vars:
-                XCODE_WORKSPACE: "flutter_test"
-                XCODE_SCHEME: "flutter_test"
+                XCODE_WORKSPACE: "MyXcodeWorkspace.xcworkspace"
+                XCODE_SCHEME: "MyScheme"
             xcode: latest
             cocoapods: default
         scripts:
