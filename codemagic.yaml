@@ -6,8 +6,8 @@ workflows:
         name: iOS App
         environment:
             vars:
-                XCODE_WORKSPACE: "MyXcodeWorkspace"
-                XCODE_SCHEME: "MyScheme"
+                XCODE_WORKSPACE: "tas"
+                XCODE_SCHEME: "tas"
             xcode: latest
             cocoapods: default
         scripts:
