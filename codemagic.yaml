@@ -6,8 +6,8 @@ workflows:
         name: iOS App
         environment:
             vars:
-                XCODE_WORKSPACE: "tas"
-                XCODE_SCHEME: "tas"
+                XCODE_WORKSPACE: "flutter_test"
+                XCODE_SCHEME: "flutter_test"
             xcode: latest
             cocoapods: default
         scripts:
